@@ -36,6 +36,7 @@
     "@gkst/common": "^0.1.2",
     "@nestjs/common": "^8.4.2",
     "@nestjs/core": "^8.4.2",
+    "nestjs-i18n": "^8.3.2",
     "request-ip": "^2.1.3"
   }
 }
