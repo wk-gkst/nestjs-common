@@ -5,8 +5,8 @@
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.json",
     "precommit": "lint-staged",
-    "prepublish": "yarn run build",
-    "publish-public": "yarn publish --access public",
+    "prepublish": "npm run build",
+    "publish-public": "npm run prepublish && npm publish --access public",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
